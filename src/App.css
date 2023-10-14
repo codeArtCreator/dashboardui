@@ -1,0 +1,91 @@
+.apexcharts-legend {
+  display: none !important;
+}
+
+.apexcharts-toolbar {
+  display: none !important;
+}
+
+#hamburger {
+  display: none;
+}
+
+@media (max-width: 991px) {
+  #main {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  #overview {
+    width: 100%;
+    transition: ease-in-out 0.5s;
+  }
+  #customers {
+    width: 100%;
+    transition: ease-in-out 0.5s;
+    justify-content: center;
+  }
+  #hero-section {
+    flex-wrap: wrap;
+  }
+  #hero-section > div {
+    width: calc(50% - 1rem);
+    margin-right: 1rem;
+  }
+}
+
+@media (max-width: 1350px) {
+  #sidebar-closed {
+    margin-left: -15rem;
+    transition: ease-in-out 0.5s;
+  }
+  #sidebar {
+    margin-left: 0;
+    transition: ease-in-out 0.5s;
+    z-index: 100;
+  }
+  #hamburger {
+    display: block;
+  }
+  #main-section {
+    margin-left: 0;
+    transition: ease-in-out 0.5s;
+  }
+}
+
+@media (max-width: 1150px) {
+  #main {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  #overview {
+    width: 100%;
+    transition: ease-in-out 0.5s;
+  }
+  #customers {
+    width: 100%;
+    transition: ease-in-out 0.5s;
+    justify-content: center;
+  }
+  #hero-section {
+    flex-wrap: wrap;
+  }
+  #hero-section > div {
+    width: calc(50% - 1rem);
+    margin-right: 1rem;
+  }
+}
+
+@media (max-width: 697px) {
+  #hero-section {
+    flex-wrap: wrap;
+  }
+  #hero-section > div {
+    width: calc(100% - 1rem);
+    margin-right: 1rem;
+  }
+}
+
+#main-section-sidebar {
+  margin-left: 0;
+  transition: ease-in-out 0.5s;
+}
